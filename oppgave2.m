@@ -3,7 +3,7 @@ clear all
 lib = oblig2_lib;
 
 %1. Lese inn av bildet
-im = double(imread('uio.png'));
+im = double(imread('ink.png'));
 entro= lib.my_entropy(uint8(im));
 [M,N]=size(im);
 
